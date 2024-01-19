@@ -5,6 +5,9 @@
   body {
     font-family: "Inter", sans-serif;
   }
+  * {
+    border: 1px solid red;
+  }
   :root {
     --color-gray: #36485c;
     --color-blue: #4328eb;
@@ -290,6 +293,7 @@
     flex-direction: column;
   }
   .bottom-left {
+    height: fit-content !important;
     text-wrap: nowrap;
     font-size: 12px;
   }
