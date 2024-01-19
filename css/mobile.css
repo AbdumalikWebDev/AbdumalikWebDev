@@ -5,9 +5,6 @@
   body {
     font-family: "Inter", sans-serif;
   }
-  * {
-    border: 1px solid red;
-  }
   :root {
     --color-gray: #36485c;
     --color-blue: #4328eb;
@@ -301,5 +298,8 @@
     width: 50%;
     justify-content: space-around;
     padding-top: 40px;
+  }
+  #copyright-text {
+    padding: 0px 20px;
   }
 }
